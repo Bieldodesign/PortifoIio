@@ -1,0 +1,116 @@
+/*-----Global-----*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+     
+}
+html{
+    font-family: UfesSans, sans-serif;
+}
+body{
+    width 100%;
+    background-image: url(images/background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #403051;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+h2{
+   color:white;
+    font-size: 30px;
+}
+p{
+    color:white;
+    font-size: 20px;
+}
+a{
+    text-decoration: ;
+    text-decoration-color: white;
+}
+
+/*-----Navegação---*/
+nav{
+    height: 100px;
+    line-height: 100px;
+    float: inherit;
+}
+nav a{
+    color: white;
+    text-decoration:none;
+    font-size: 22px;
+}
+.logo{
+    float: left;
+}
+.btn{
+    float:right;
+}
+nav a img{
+    vertical-align: middle;
+}
+
+/*----cabeçalho portal --*/
+header {
+margin: 100px 0 100px 0;
+text-align: left;
+}
+header p {
+    width: 50%;
+    text-align: left;
+    margin: 20px 0 40px 0;
+}
+/*----portal---*/
+.portal{
+   text-align: center;
+    width: 100%
+}
+.portal img {
+    margin: 1%;
+    width: 75%;
+}
+/*----cabeçalho2--*/
+.trab2 h2{
+    text-align: right;
+    margin: 100px 0 20px 0;
+}
+.trab2 p{
+    text-align: right
+}
+
+/*----trabalho2---*/
+.design2{
+    margin: 100px 0;
+    text-align: center;
+}
+
+/*---outros trabalhos---*/
+
+.trab3 {
+    text-align: center;
+}
+.trab3 a img{
+    margin: 1%;
+    width: 45%
+}
+.trab3 h2{
+    text-align: center;
+}
+
+/*------responsivo-----*/
