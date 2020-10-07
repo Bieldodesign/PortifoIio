@@ -9,6 +9,10 @@
      
 }
 html{
+    @font-face{
+        font-family: "UfesSans"
+        scr: url(/Fontes/UfesSans-Regular.ttf)
+    }
     font-family: UfesSans, sans-serif;
 }
 body{
@@ -59,6 +63,7 @@ nav a{
 }
 .logo{
     float: left;
+    margin: 0 6px;
 }
 .btn{
     float:right;
