@@ -111,7 +111,20 @@ header p {
     margin:1%;
     width: 75%;
 }
-
+#controles{
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.trab2 canvas{
+    text-align: center;
+    margin: 1%;
+    width: 75%;
+}
+.trab2 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*---outros trabalhos---*/
 
 .trab3 {
@@ -124,6 +137,8 @@ header p {
 .trab3 h2{
     text-align: center;
 }
+
+
 
 /*------responsivo-----*/
 @media only screen and (max-width: 768px){
