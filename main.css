@@ -55,18 +55,20 @@ nav{
     height: 100px;
     line-height: 100px;
     float: inherit;
+    
 }
 nav a{
     color: white;
     text-decoration:none;
-    font-size: 22px;
+    font-size: 200%;
 }
 .logo{
     float: left;
-    margin: 0 6px;
+    margin: 0 6%;
 }
 .btn{
     float:right;
+    vertical-align: middle;
 }
 nav a img{
     vertical-align: middle;
@@ -123,6 +125,27 @@ header p {
 .trab2 canvas{
     text-align: center;
     margin: 1%;
+    width: 75%;
+}
+/*----cabeçalho1--*/
+.trab1 h2{
+    text-decoration: none;
+    text-align: left;
+    margin: 100px 0 20px 0;
+}
+.trab1 p{
+    text-align: left;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*----trabalho1---*/
+.trab1{
+    margin: 100px 0;
+    text-align: left;
+}
+.trab1 a img{
+    margin:1%;
     width: 75%;
 }
 
